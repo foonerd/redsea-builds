@@ -1,0 +1,30 @@
+# Build outputs
+out/armv6/*
+out/armhf/*
+out/arm64/*
+out/amd64/*
+
+# Keep output directories
+!out/armv6/.gitkeep
+!out/armhf/.gitkeep
+!out/arm64/.gitkeep
+!out/amd64/.gitkeep
+
+!out/armv6/fn-redsea
+!out/armhf/fn-redsea
+!out/arm64/fn-redsea
+!out/amd64/fn-redsea
+
+# Temporary build directories
+build/
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
