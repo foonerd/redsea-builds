@@ -1,5 +1,12 @@
 # redsea-builds
 
+> [!IMPORTANT]
+> **This repository is archived.** The work continues in [foonerd/rtlsdr-radio](https://github.com/foonerd/rtlsdr-radio), which holds the FM/DAB Radio plugin for Volumio together with the builds of every binary it ships.
+>
+> The RDS decoder `fn-redsea` is built there, in [`components/redsea`](https://github.com/foonerd/rtlsdr-radio/tree/main/components/redsea). The documentation is in the [wiki](https://github.com/foonerd/rtlsdr-radio/wiki).
+>
+> It stays available, read-only, as the source of the binaries that earlier versions of the plugin were built from. What follows describes this repository as it was when it was last worked on.
+
 Docker-based cross-compilation system for building fn-redsea (RDS decoder) binaries
 for multiple architectures.
 
